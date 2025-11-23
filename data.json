@@ -1,0 +1,357 @@
+[
+  {
+    "nome": "JavaScript",
+    "descricao": "O JS é a linguagem da Web.",
+    "ano": 1995,
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+  },
+  {
+    "nome": "Python",
+    "descricao": "O Python é a linguagem de ciência de dados e IA.",
+    "ano": 1994,
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Python"
+  },
+  {
+    "nome": "Java",
+    "descricao": "Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma.",
+    "ano": 1995,
+    "link": "https://dev.java/"
+  },
+  {
+    "nome": "PHP",
+    "descricao": "PHP é uma linguagem de script do lado do servidor para desenvolvimento web.",
+    "ano": 1994,
+    "link": "https://www.php.net/"
+  },
+  {
+    "nome": "C++",
+    "descricao": "C++ é uma linguagem de programação de uso geral com recursos de orientação a objetos.",
+    "ano": 1985,
+    "link": "https://isocpp.org/"
+  },
+  {
+    "nome": "C#",
+    "descricao": "C# (C-Sharp) é uma linguagem moderna e orientada a objetos desenvolvida pela Microsoft.",
+    "ano": 2000,
+    "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
+  },
+  {
+    "nome": "TypeScript",
+    "descricao": "TypeScript é um superconjunto de JavaScript que adiciona tipagem estática opcional.",
+    "ano": 2012,
+    "link": "https://www.typescriptlang.org/"
+  },
+  {
+    "nome": "Go",
+    "descricao": "Go (ou Golang) é uma linguagem compilada criada pelo Google para ser simples e eficiente.",
+    "ano": 2009,
+    "link": "https://go.dev/"
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Rust é uma linguagem focada em segurança, concorrência e desempenho.",
+    "ano": 2015,
+    "link": "https://www.rust-lang.org/pt-BR"
+  },
+  {
+    "nome": "React",
+    "descricao": "Uma biblioteca JavaScript declarativa, eficiente e flexível para a construção de interfaces de usuário (UIs).",
+    "data_criacao": "2013",
+    "link": "https://reactjs.org/",
+    "tags": [
+      "biblioteca",
+      "frontend",
+      "UI/UX",
+      "Meta"
+    ]
+  },
+  {
+    "nome": "Vue.js",
+    "descricao": "Framework progressivo para a construção de interfaces de usuário. Focado na simplicidade e desempenho.",
+    "data_criacao": "2014",
+    "link": "https://vuejs.org/",
+    "tags": [
+      "framework",
+      "frontend",
+      "reatividade",
+      "SPA"
+    ]
+  },
+  {
+    "nome": "Angular",
+    "descricao": "Plataforma de desenvolvimento front-end completa e baseada em componentes, mantida pelo Google.",
+    "data_criacao": "2016",
+    "link": "https://angular.io/",
+    "tags": [
+      "framework",
+      "frontend",
+      "Google",
+      "desenvolvimento web"
+    ]
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Linguagem de programação moderna, estaticamente tipada, que compila para a JVM, ideal para Android e aplicações backend.",
+    "data_criacao": "2011",
+    "link": "https://kotlinlang.org/",
+    "tags": [
+      "linguagem de programação",
+      "JVM",
+      "Android",
+      "multiplataforma"
+    ]
+  },
+  {
+    "nome": "Swift",
+    "descricao": "Linguagem de programação poderosa e intuitiva criada pela Apple para desenvolver apps para iOS, macOS, watchOS e tvOS.",
+    "data_criacao": "2014",
+    "link": "https://www.swift.org/",
+    "tags": [
+      "linguagem de programação",
+      "Apple",
+      "desenvolvimento mobile",
+      "iOS"
+    ]
+  },
+  {
+    "nome": "PostgreSQL",
+    "descricao": "Sistema de gerenciamento de banco de dados objeto-relacional de código aberto, conhecido por sua robustez e conformidade com padrões SQL.",
+    "data_criacao": "1996",
+    "link": "https://www.postgresql.org/",
+    "tags": [
+      "banco de dados",
+      "SQL",
+      "relacional",
+      "código aberto"
+    ]
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "Banco de dados NoSQL orientado a documentos, projetado para escalabilidade e desenvolvimento de aplicações modernas.",
+    "data_criacao": "2009",
+    "link": "https://www.mongodb.com/",
+    "tags": [
+      "banco de dados",
+      "NoSQL",
+      "documentos",
+      "escalabilidade"
+    ]
+  },
+  {
+    "nome": "Redis",
+    "descricao": "Armazenamento de estrutura de dados em memória de código aberto, usado como cache, broker de mensagens e banco de dados.",
+    "data_criacao": "2009",
+    "link": "https://redis.io/",
+    "tags": [
+      "cache",
+      "banco de dados",
+      "chave-valor",
+      "mensageria"
+    ]
+  },
+  {
+    "nome": "Docker",
+    "descricao": "Plataforma que permite desenvolver, enviar e executar aplicações dentro de contêineres isolados, garantindo consistência entre ambientes.",
+    "data_criacao": "2013",
+    "link": "https://www.docker.com/",
+    "tags": [
+      "DevOps",
+      "virtualização",
+      "containers",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Kubernetes (K8s)",
+    "descricao": "Sistema portátil e extensível de código aberto para gerenciar cargas de trabalho e serviços em contêineres.",
+    "data_criacao": "2014",
+    "link": "https://kubernetes.io/",
+    "tags": [
+      "orquestração",
+      "DevOps",
+      "nuvem",
+      "Google"
+    ]
+  },
+  {
+    "nome": "Terraform",
+    "descricao": "Ferramenta de Infraestrutura como Código (IaC) que permite provisionar e gerenciar recursos de nuvem usando arquivos de configuração.",
+    "data_criacao": "2014",
+    "link": "https://www.terraform.io/",
+    "tags": [
+      "IaC",
+      "DevOps",
+      "provisionamento",
+      "automação"
+    ]
+  },
+  {
+    "nome": "Next.js",
+    "descricao": "Framework de React que facilita o desenvolvimento de aplicações full-stack com Server-Side Rendering (SSR) e geração estática.",
+    "data_criacao": "2016",
+    "link": "https://nextjs.org/",
+    "tags": [
+      "framework",
+      "frontend",
+      "SSR",
+      "React"
+    ]
+  },
+  {
+    "nome": "NestJS",
+    "descricao": "Framework progressivo para construção de aplicações eficientes e escaláveis do lado do servidor, baseado em Node.js e TypeScript.",
+    "data_criacao": "2017",
+    "link": "https://nestjs.com/",
+    "tags": [
+      "framework",
+      "backend",
+      "Node.js",
+      "arquitetura"
+    ]
+  },
+  {
+    "nome": "GraphQL",
+    "descricao": "Linguagem de consulta para APIs e um runtime para preencher essas consultas com seus dados existentes, criada pelo Facebook.",
+    "data_criacao": "2015",
+    "link": "https://graphql.org/",
+    "tags": [
+      "API",
+      "protocolo",
+      "consulta de dados",
+      "backend"
+    ]
+  },
+  {
+    "nome": "Kafka",
+    "descricao": "Plataforma distribuída de streaming de eventos de alto desempenho, usada para construir pipelines de dados em tempo real.",
+    "data_criacao": "2011",
+    "link": "https://kafka.apache.org/",
+    "tags": [
+      "mensageria",
+      "streaming de dados",
+      "Big Data",
+      "Apache"
+    ]
+  },
+  {
+    "nome": "Svelte",
+    "descricao": "Compilador que transforma código declarativo em código de manipulação do DOM altamente eficiente em tempo de build, em vez de runtime.",
+    "data_criacao": "2016",
+    "link": "https://svelte.dev/",
+    "tags": [
+      "compilador",
+      "frontend",
+      "framework",
+      "performance"
+    ]
+  },
+  {
+    "nome": "Scala",
+    "descricao": "Linguagem que combina recursos de linguagens orientadas a objetos e linguagens funcionais, rodando na Java Virtual Machine (JVM).",
+    "data_criacao": "2004",
+    "link": "https://www.scala-lang.org/",
+    "tags": [
+      "linguagem de programação",
+      "funcional",
+      "JVM",
+      "Big Data"
+    ]
+  },
+  {
+    "nome": "Elixir",
+    "descricao": "Linguagem de programação funcional e concorrente construída sobre a Erlang VM (BEAM), ideal para sistemas distribuídos e tolerantes a falhas.",
+    "data_criacao": "2012",
+    "link": "https://elixir-lang.org/",
+    "tags": [
+      "linguagem de programação",
+      "funcional",
+      "BEAM",
+      "concorrência"
+    ]
+  },
+  {
+    "nome": "Erlang",
+    "descricao": "Linguagem e plataforma de runtime criada para construir sistemas maciçamente concorrentes, distribuídos e tolerantes a falhas.",
+    "data_criacao": "1986",
+    "link": "https://www.erlang.org/",
+    "tags": [
+      "linguagem de programação",
+      "telecomunicações",
+      "distribuído",
+      "concorrência"
+    ]
+  },
+  {
+    "nome": "Haskell",
+    "descricao": "Linguagem de programação puramente funcional, de tipagem forte e avaliação preguiçosa, usada principalmente em pesquisa e acadêmicos.",
+    "data_criacao": "1990",
+    "link": "https://www.haskell.org/",
+    "tags": [
+      "linguagem de programação",
+      "funcional",
+      "acadêmico",
+      "tipagem forte"
+    ]
+  },
+  {
+    "nome": "Jira",
+    "descricao": "Ferramenta de gerenciamento de projetos e rastreamento de issues da Atlassian, amplamente utilizada em equipes que aplicam metodologias Ágeis.",
+    "data_criacao": "2002",
+    "link": "https.://www.atlassian.com/software/jira",
+    "tags": [
+      "gerenciamento de projetos",
+      "Agile",
+      "Scrum",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Prometheus",
+    "descricao": "Sistema de monitoramento e alerta de código aberto, projetado para confiabilidade e escalabilidade, parte do ecossistema Cloud Native.",
+    "data_criacao": "2012",
+    "link": "https://prometheus.io/",
+    "tags": [
+      "monitoramento",
+      "DevOps",
+      "observabilidade",
+      "alertas"
+    ]
+  },
+  {
+    "nome": "AWS Lambda",
+    "descricao": "Serviço de computação serverless da Amazon Web Services (AWS) que executa código em resposta a eventos sem provisionar ou gerenciar servidores.",
+    "data_criacao": "2014",
+    "link": "https://aws.amazon.com/lambda/",
+    "tags": [
+      "cloud computing",
+      "serverless",
+      "FaaS",
+      "AWS",
+      "backend"
+    ]
+  },
+  {
+    "nome": "TensorFlow",
+    "descricao": "Framework de código aberto para aprendizado de máquina, desenvolvido pelo Google, usado para criar e treinar modelos de redes neurais.",
+    "data_criacao": "2015",
+    "link": "https://www.tensorflow.org/",
+    "tags": [
+      "machine learning",
+      "IA",
+      "deep learning",
+      "framework"
+    ]
+  },
+  {
+    "nome": "GCP (Google Cloud Platform)",
+    "descricao": "Conjunto de serviços de computação em nuvem oferecido pelo Google, incluindo infraestrutura, plataforma e software como serviço.",
+    "data_criacao": "2008",
+    "link": "https://cloud.google.com/",
+    "tags": [
+      "cloud computing",
+      "nuvem",
+      "plataforma",
+      "Google"
+    ]
+  }
+]
