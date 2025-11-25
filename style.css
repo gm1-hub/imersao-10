@@ -1,0 +1,138 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    background: #F7F9FC;
+    color: #2B2B2B;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ===== TÍTULO ===== */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;                 
+    font-weight: 700;                  /* mais elegante para Playfair */
+    font-family: 'Playfair Display', serif; 
+    color: #3A4B7B;                    /* mesma cor do botão */
+    margin-bottom: 20px;
+}
+
+/* ===== CAMPO DE PESQUISA ===== */
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.search-box input {
+    width: 380px;
+    padding: 12px 16px;
+    border: 1px solid #DCE3EE;
+    border-radius: 12px;
+    background: #fff;
+    transition: .2s;
+    font-size: 1rem;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #4A68FF;
+    box-shadow: 0 0 0 3px rgba(74, 104, 255, 0.15);
+}
+
+.search-box button {
+    padding: 12px 18px;
+    background: #4A68FF;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.search-box button:hover {
+    background: #3a54d6;
+}
+
+/* ===== CARDS ===== */
+.resultados {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+    border: 1px solid #E8ECF3;
+    position: relative;
+    transition: .2s;
+}
+
+.card:hover {
+    box-shadow: 0 12px 28px rgba(0,0,0,0.09);
+    transform: translateY(-4px);
+}
+
+/* ===== IMAGEM DO CARD ===== */
+.card-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+    display: block;
+    opacity: 1;
+}
+
+
+
+/* ===== TEXTOS ===== */
+.card h2 {
+    font-size: 1.4rem;
+    color: #1F2A44;
+    margin-bottom: 8px;
+    font-weight: 700;
+    padding-right: 90px;
+}
+
+.card p {
+    color: #4A4A4A;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+/* ===== LINK ===== */
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #4A68FF;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.card a:hover {
+    background: #3a54d6;
+}
+
